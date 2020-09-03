@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "030d738f01afe7bf9327955d5ac7afd9",
+    "revision": "703ef0eba350e9f61054f7d12f97d3e4",
     "url": "/test-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/test-portfolio/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "ae8498c207660c9020e5",
+    "revision": "6914905987248b3ae948",
     "url": "/test-portfolio/static/css/main.2073b0fc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/test-portfolio/static/js/2.1408c25d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ae8498c207660c9020e5",
-    "url": "/test-portfolio/static/js/main.16ff33e1.chunk.js"
+    "revision": "6914905987248b3ae948",
+    "url": "/test-portfolio/static/js/main.9b7a8433.chunk.js"
   },
   {
     "revision": "de94020ddff0df2d7432",
@@ -100,7 +100,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/test-portfolio/static/media/Montserrat-ThinItalic.009bfe3a.woff"
   },
   {
-    "revision": "26b377ac3db923a3414c6d5f7bf922de",
-    "url": "/test-portfolio/static/media/Profile.26b377ac.jpeg"
+    "revision": "5a74a6d5d526fe693b17501c87036e7f",
+    "url": "/test-portfolio/static/media/Profile.5a74a6d5.jpg"
   }
 ]);
