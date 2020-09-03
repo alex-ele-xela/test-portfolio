@@ -1,4 +1,5 @@
 {
+  "homepage": "https://alex-ele-xela.github.io/test-portfolio",
   "name": "front-end",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +8,6 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "gh-pages": "^3.1.0",
-    "homepage": "https://alex-ele-xela.github.io/test-portfolio",
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.13.1",
