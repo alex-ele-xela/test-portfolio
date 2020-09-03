@@ -1,0 +1,65 @@
+@keyframes line-anim-in {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes line-anim-out-1 {
+    to {
+        stroke-dashoffset: 880;
+    }
+}
+
+@keyframes line-anim-out-2 {
+    to {
+        stroke-dashoffset: 680;
+    }
+}
+
+@keyframes line-anim-out-3 {
+    to {
+        stroke-dashoffset: 485;
+    }
+}
+
+@keyframes line-anim-out-4 {
+    to {
+        stroke-dashoffset: 760;
+    }
+}
+
+@keyframes line-anim-out-5 {
+    to {
+        stroke-dashoffset: 600;
+    }
+}
+
+@keyframes line-anim-out-6 {
+    to {
+        stroke-dashoffset: 1180;
+    }
+}
+
+@keyframes line-anim-out-7 {
+    to {
+        stroke-dashoffset: 660;
+    }
+}
+
+@keyframes fill-aboutMe {
+    from {
+        fill: transparent;
+    }
+    to {
+        fill: #6d1a36;
+    }
+}
+
+@keyframes unfill-aboutMe {
+    from {
+        fill: transparent;
+    }
+    to {
+        fill: #6d1a36;
+    }
+}

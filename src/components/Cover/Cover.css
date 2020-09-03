@@ -1,0 +1,116 @@
+.coverColour {
+  color: #f5f5f5;
+  background: linear-gradient(to bottom, #00171f 0%, #002430 74%);
+}
+
+.back {
+  z-index: 0;
+}
+
+.front {
+  z-index: 100;
+}
+
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s
+    infinite;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+hr {
+  border: 2px solid;
+  margin-top: 1em;
+  width: 15em;
+  height: 10px;
+  color: #f5f5f5;
+  background-color: #fcf7f8;
+  border-radius: 100px;
+}
+
+
+.learnBtn {
+  position: absolute;
+  bottom: 0;
+
+  padding: 0.7em 1em;
+  padding-bottom: 1.2em;
+
+  border-radius: 1.5rem 1.5rem 0 0;
+
+  outline: none;
+  background: transparent;
+  border: #f5f5f5 solid;
+  border-bottom: none;
+
+  color: #f5f5f5;
+
+  transition: all 0.5s ease-out;
+}
+
+.learnBtn:hover {
+  color: #6d1a36;
+  background-color: #f5f5f5;
+  padding-bottom: 1.5em;
+}
+
+.flap {
+  position: absolute;
+  bottom: 0;
+
+  padding: 0.4em 0;
+  width: 20%;
+  min-width: 250px;
+
+  border-radius: 1rem 1rem 0 0;
+
+  background: #f5f5f5;
+}
+
+@media only screen and (max-width:600px) {
+  #rotatingText {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  #rotatingText {
+    height: 100px;
+  }
+
+  hr {
+    width: 10em;
+  }
+}
+
+@media only screen and (max-width:300px) {
+  #hello {
+    font-size: 1.4rem;
+  }
+  
+  #rotatingText {
+    font-size: 2.1rem;
+  }
+
+  hr {
+    width: 8em;
+  }
+
+  .learnBtn {
+    font-size: 0.8rem;
+  }
+
+  .flap {
+    min-width: 175px;
+  }
+}

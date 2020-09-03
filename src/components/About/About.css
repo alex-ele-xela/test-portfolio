@@ -1,0 +1,187 @@
+.aboutColour {
+    color: #6d1a36;
+    background-color: #f5f5f5;
+}
+
+#aboutStroke {
+    max-width: 350px;
+    width: 50%;
+    height: auto;
+}
+
+#a {
+    stroke-dasharray: 880px;
+    stroke-dashoffset: 880px;
+}
+
+#b {
+    stroke-dasharray: 680px;
+    stroke-dashoffset: 680px;
+}
+
+#o {
+    stroke-dasharray: 485px;
+    stroke-dashoffset: 485px;
+}
+
+#u {
+    stroke-dasharray: 760px;
+    stroke-dashoffset: 760px;
+}
+
+#t {
+    stroke-dasharray: 600px;
+    stroke-dashoffset: 600px;
+}
+
+#m {
+    stroke-dasharray: 1180px;
+    stroke-dashoffset: 1180px;
+}
+
+#e {
+    stroke-dasharray: 660px;
+    stroke-dashoffset: 660px;
+}
+
+.deepShadow {
+    box-shadow: 
+      1px 1px 0 #2e2e2e, 
+      2px  2px 0 #2c2c2c, 
+      3px  3px 0 #2a2a2a, 
+      4px  4px 0 #282828, 
+      5px  5px 0 #262626, 
+      6px  6px 0 #242424, 
+      7px  7px 0 #222, 
+      8px  8px 0 #202020, 
+      9px  9px 0 #1e1e1e, 
+      10px  10px 0 #1c1c1c, 
+      11px  11px 0 #1a1a1a, 
+      12px  12px 0 #181818, 
+      13px  13px 0 #161616, 
+      14px  14px 0 #141414, 
+      15px  15px 0 #121212, 
+      22px  22px 30px rgba(0, 0, 0, 0.9);
+}
+
+.img {
+    height: 400px;
+    width: 400px;
+    
+    box-shadow:4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+    padding: 0 0;
+}
+
+.img:hover {
+    box-shadow:4px 4px 4px 2px rgba( 0, 0, 0, 0.4 );
+    padding: 10px;
+}
+
+
+#aboutCard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+@media only screen and (min-width:1279px )  and (min-height: 700px) {
+    #aboutMe {
+        margin: 4rem 1rem;
+    }
+}
+
+@media only screen and (max-width:1100px )  and (min-height: 1200px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .img {
+        height: 600px;
+        width: 600px;
+        
+    }
+
+    #introText {
+        margin-top: 1.5em;
+        font-size: 1.70rem;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    #aboutMe {
+        margin: 0.5rem 1rem;
+    }
+    
+    .flex {
+        flex-direction: column;
+    }
+    
+    .img {
+        height: 550px;
+        width: 550px;
+    }
+    
+    #introText {
+        width: 570px;
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .img {
+        height: 320px;
+        width: 320px;
+    }
+    
+    #introText {
+        width: 345px;
+        font-size: 0.85rem;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .img {
+        height: 250px;
+        width: 250px;
+    }
+    
+    #introText {
+        width: 275px;
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (max-width:400px) and (min-height:790px) {
+    .img {
+        height: 300px;
+        width: 300px;
+    }
+    
+    #introText {
+        width: 320px;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .img {
+        height: 250px;
+        width: 250px;
+    }
+    
+    #introText {
+        width: 275px;
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .img {
+        height: 220px;
+        width: 220px;
+    }
+    
+    #introText {
+        width: 245px;
+        font-size: 0.7rem;
+    }
+}
