@@ -2,7 +2,7 @@ import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Tilt from 'react-tilt'
 import './About.css';
-import profile from './Profile.jpeg';
+import profile from './Profile.jpg';
 
 const About = ({ setDisplayPage }) => {
     return (
